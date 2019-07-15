@@ -144,9 +144,8 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 ------------------------------------------------------------------------------------------------ */
 
 let findShortest = (data) => {
-  let arrNames = data.map(element => [element.name, element.name.length]);
+  let arrNames = data.map(element => [element.name, element.height]);
   arrNames.sort((a,b)=>{return a[1]-b[1]});
-  console.log(arrNames);
   return arrNames[0][0];
 };
 
