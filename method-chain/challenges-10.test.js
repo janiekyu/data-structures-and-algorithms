@@ -13,8 +13,8 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 
 const count = (target, input) => {
   let numberOfTarget = 0;
-  input.forEach(innerArr => {
-    numberOfTarget += innerArr.filter (element => element === target).length;
+  input.forEach(innerArray => {
+    numberOfTarget += innerArray.filter (element => element === target).length;
   });
   return numberOfTarget;
 };
