@@ -1,5 +1,4 @@
 # Reverse an Array
-<!-- Short summary or background information -->
 
 ## Challenge
 Given an array of integers, we had to return an array with the contents reversed.
@@ -9,4 +8,4 @@ First, we decided to create a new array that was the same length as the given ar
 
 ## Solution
 Whiteboarded with Nicholas Paro and Chris Coulon
-![Image of whiteboard](./assets/cc01.jpg)
+![Image of whiteboard](./assets/cc01-image.jpg)
