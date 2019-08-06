@@ -6,6 +6,13 @@ public class ArrayReverse {
     System.out.println(Arrays.toString(reverseArray(toBeReversed)));
   }
   public static int[] reverseArray (int[] arr){
-    return arr;
+    int arrayLength = arr.length;
+    int[] reversedArray;
+    reversedArray = new int[arrayLength];
+    for (int i=0; i<arrayLength; i++){
+      int newPosition = arrayLength - 1 - i;
+      reversedArray[newPosition] = arr[i];
+    }
+    return reversedArray;
   }
 }
