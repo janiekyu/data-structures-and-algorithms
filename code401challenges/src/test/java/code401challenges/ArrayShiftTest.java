@@ -17,5 +17,12 @@ public class ArrayShiftTest  {
                 new int[]{4,8,15,16,23,42},
                 ArrayShift.insertShiftArray(new int[]{4,8,15,23,42}, 16));
     }
+
+    @Test public void testInsertShiftArray_3 () {
+        assertArrayEquals(
+                "Incorrect",
+                new int[]{10,20,30,40,50},
+                ArrayShift.insertShiftArray(new int[]{10,20,30,40}, 50));
+    }
 }
 
