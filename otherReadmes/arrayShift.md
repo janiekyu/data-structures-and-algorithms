@@ -14,7 +14,7 @@ Write a function called `insertShiftArray` which takes in an array and a new val
 
 ## Solution
 
-[Code]()
+[Code](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/ArrayShift.java) | [Test](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/code401challenges/ArrayShiftTest.java)
 
 Whiteboarded with Brandon Hurrington:
 
