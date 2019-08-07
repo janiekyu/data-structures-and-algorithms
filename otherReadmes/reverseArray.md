@@ -9,6 +9,6 @@ First, we decided to create a new array that was the same length as the given ar
 ## Solution
 [Code](https://github.com/janiekyu/data-structures-and-algorithms/pull/16)
 
-Whiteboarded with Nicholas Paro and Chris Coulon
+Whiteboarded with Nicholas Paro and Chris Coulon:
 
 ![Image of whiteboard](../assets/cc01-image.jpg)
