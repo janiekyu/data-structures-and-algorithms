@@ -11,13 +11,22 @@ public class LinkedListTest {
         //System.out.println(emptyList.head);
     }
 
-    @Test public void testLinkedList1(){
+    @Test public void testHead (){
+        LinkedList<Integer> testList = new LinkedList<>();
+        testList.insert(100);
+        int headValue = testList.head.currentNodeValue;
+        assertEquals(100, headValue);
+    }
 
-        LinkedList<Integer> test1List = new LinkedList<>();
-        test1List.insert(3);
-        test1List.insert(5);
-        test1List.insert(10);
-        test1List.includes(3);
-        System.out.println(test1List);
+    @Test public void testInsertMultipleNodes(){
+
+        LinkedList<Integer> multiNodeList = new LinkedList<>();
+        multiNodeList.insert(3);
+        multiNodeList.insert(5);
+        multiNodeList.insert(10);
+        multiNodeList.includes(3);
+        System.out.println(multiNodeList);
+
+        assertEquals("Values in linked list, 10, 5, 3", multiNodeList.toString());
     }
 }
