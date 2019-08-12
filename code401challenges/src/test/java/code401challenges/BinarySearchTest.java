@@ -8,8 +8,8 @@ public class BinarySearchTest {
         int[] oddArray = new int[]{1,2,3,4,5,6,7};
         assertEquals(
                 "Incorrect index of an odd array returned",
-                5,
-                BinarySearch.binarySearch(oddArray, 6)
+                0,
+                BinarySearch.binarySearch(oddArray, 1)
         );
     }
 
@@ -17,8 +17,8 @@ public class BinarySearchTest {
         int[] evenArray = new int[]{1,2,3,4,5,6};
         assertEquals(
                 "Incorrect index of an even returned",
-                1,
-                BinarySearch.binarySearch(evenArray, 2)
+                0,
+                BinarySearch.binarySearch(evenArray, 1)
         );
     }
 
