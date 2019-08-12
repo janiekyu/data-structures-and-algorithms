@@ -12,4 +12,4 @@ Implement a Singly Linked List Data Structure:
 - When a new node is created, it will be inserted at the beginning of the list, and head will point to the new node
 
 ## Solution
-[Code]() | [Test]()
+[Code](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/LinkedList) | [Test](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/code401challenges/LinkedList/LinkedListTest.java)
