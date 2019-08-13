@@ -16,6 +16,6 @@ Write the following methods for the Linked List class:
 
 Whiteboarded with Promila Tamang :
 
-![Image of whiteboard](../assets/cc06-image-a.jpg)
+![Image of whiteboard](../assets/cc06-image-a.JPG)
 
-![Image of whiteboard](../assets/cc06-image-b.jpg)
+![Image of whiteboard](../assets/cc06-image-b.JPG)
