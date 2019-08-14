@@ -70,7 +70,8 @@ public class LinkedListTest {
         multiNodeList.kthFromEnd(-6);
     }
 
-    @Test public void testkthFromEnd_listOfOne() throws Exception {
+    @Test (expected = Exception.class)
+    public void testkthFromEnd_listOfOne() throws Exception {
         LinkedList<Integer> listOfOne = new LinkedList<>();
         listOfOne.insert(1);
         listOfOne.kthFromEnd(1);
