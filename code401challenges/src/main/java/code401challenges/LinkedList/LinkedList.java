@@ -100,6 +100,34 @@ public class LinkedList<T> {
         }
     }
 
+    public int kthFromEnd(int k) throws Exception {
+        Node current = head;
+        Node currentKSpacesBack = head;
+        int counter = 0;
+
+        // if k is a negative number, throw an exception
+        if (k<0){
+            throw new Exception("k cannot be a negative number");
+        }
+
+        while (current.nextNode != null){
+            counter ++;
+            current = current.nextNode;
+            if (counter > k){
+                currentKSpacesBack = currentKSpacesBack.nextNode;
+            }
+        }
+
+        System.out.println("current: "+ current.currentNodeValue + ", currentKSpacesBack: " +  currentKSpacesBack.currentNodeValue);
+
+        if (counter < k){
+            throw new Exception("Linked list is not long enough");
+        } else {
+            return (int) currentKSpacesBack.currentNodeValue;
+        }
+
+    }
+
 }
 
 
