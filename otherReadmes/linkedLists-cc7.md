@@ -12,7 +12,7 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 
 Whiteboarded with Marisha Hoza:
 
-![Image of whiteboard](../assets/cc07-image-a.JPG)
+![Image of whiteboard](../assets/cc07-image.JPG)
 
 ## Solution
 
