@@ -7,5 +7,5 @@
 
 ## Week 2
 - Lab 05: [Linked Lists](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/linkedLists.md)
-
 - Code Challenge 06: [Linked Lists](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/linkedLists-codeChallenge.md)
+- Code Challenge 07: [Linked Lists Continued](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/linkedList-cc7.md)
