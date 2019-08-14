@@ -52,4 +52,31 @@ public class LinkedListTest {
         assertEquals("Values in linked list, 1, 2, 3, 100, 4, 5", multiNodeList.toString());
     }
 
+    @Test public void testkthFromEnd() throws Exception {
+        assertEquals(2, multiNodeList.kthFromEnd(3));
+    }
+
+    @Test (expected = Exception.class)
+    public void testkthFromEnd_kLongerThanList() throws Exception {
+         multiNodeList.kthFromEnd(6);
+    }
+
+    @Test public void testkthFromEnd_kIsListLength() throws Exception {
+        assertEquals(1,multiNodeList.kthFromEnd(4));
+    }
+
+    @Test (expected = Exception.class)
+    public void testkthFromEnd_negativeK() throws Exception {
+        multiNodeList.kthFromEnd(-6);
+    }
+
+    @Test public void testkthFromEnd_listOfOne() throws Exception {
+        LinkedList<Integer> listOfOne = new LinkedList<>();
+        listOfOne.insert(1);
+        listOfOne.kthFromEnd(1);
+    }
+
 }
+
+//https://www.webucator.com/how-to/how-throw-an-exception-java.cfm
+//https://www.baeldung.com/junit-assert-exception
