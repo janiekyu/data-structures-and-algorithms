@@ -12,12 +12,12 @@ public class LinkedListTest {
         //System.out.println(emptyList.head);
     }
 
-    @Test public void testHead (){
+    /*@Test public void testHead (){
         LinkedList<Integer> testList = new LinkedList<>();
         testList.insert(100);
         int headValue = testList.head.currentNodeValue;
         assertEquals(100, headValue);
-    }
+    }*/
 
     LinkedList<Integer> multiNodeList = new LinkedList<>();
 
