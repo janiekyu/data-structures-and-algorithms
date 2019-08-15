@@ -1,9 +1,10 @@
 package code401challenges.LinkedList;
 
+
 public class LinkedList<T> {
 
     // Instance variable
-    public Node <T>head;
+    public Node head;
 
     // Constructor for the linked list
     public LinkedList(){
@@ -127,6 +128,36 @@ public class LinkedList<T> {
         }
 
     }
+
+    public static LinkedList<Integer> mergeLists(LinkedList<Integer> listOne, LinkedList<Integer> listTwo){
+        LinkedList<Integer> newList = new LinkedList<Integer>(){};
+        newList.head = listOne.head;
+        Node currentOne = listOne.head.nextNode;
+        Node currentTwo = listTwo.head;
+        Node currentNew = listOne.head;
+        int counter = 0;
+        int reachedBothEnds = 0;
+
+        while (currentTwo != null || currentOne != null){
+            counter ++;
+
+            if (counter % 2 ==1 && currentTwo != null){
+                currentNew.nextNode = currentTwo;
+                currentNew = currentNew.nextNode;
+                currentTwo = currentTwo.nextNode;
+
+            } else if (counter %2 == 0 && currentOne != null){
+                currentNew.nextNode = currentOne;
+                currentNew = currentNew.nextNode;
+                currentOne = currentOne.nextNode;
+            }
+
+            //System.out.println(currentNew.currentNodeValue);
+        }
+        //System.out.println(newList);
+        return newList;
+    }
+
 
 }
 
