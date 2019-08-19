@@ -21,7 +21,7 @@ public class QueueTest {
         newQueue.enqueue(1);
         newQueue.enqueue(2);
         newQueue.enqueue(3);
-        assertEquals(3, (int)newQueue.peek());
+        assertEquals(3, newQueue.end.value);
     }
 
     @Test public void testDenqueMultiple(){

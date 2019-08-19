@@ -48,7 +48,7 @@ public class Queue<T> {
         return valueOfDequeuedNode;
     }
 
-    public String walkTheQueue(){
+    private String walkTheQueue(){
         Node <T> current = this.front;
         String queueValues = "";
         while (current != null){
