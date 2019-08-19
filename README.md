@@ -10,3 +10,7 @@
 - Code Challenge 06: [Linked Lists](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/linkedLists-codeChallenge.md)
 - Code Challenge 07: [Linked Lists Continued](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/linkedLists-cc7.md)
 - Code Challenge 08: [Merge two linked lists](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/mergeLists.md)
+
+## Week 3
+
+- Lab 10: [Stack and Queue Implementation](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/stackAndQueue.md)
