@@ -2,7 +2,7 @@ package stacksandqueues;
 
 public class Stack<T> {
     // instance variables
-    Node top;
+    Node <T> top;
 
     // constructor
     public Stack(){
@@ -13,7 +13,7 @@ public class Stack<T> {
         //Define a method called pop that does not take any argument, removes the node from the top of the stack, and returns the node’s value.
         if (this.top != null){
             //System.out.println("Old top: " + top.value);
-            T valueToReturn = (T) top.value;
+            T valueToReturn = top.value;
             if (this.top.nextNode != null){
 
                 this.top = this.top.nextNode;

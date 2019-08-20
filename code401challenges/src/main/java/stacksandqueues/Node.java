@@ -4,7 +4,7 @@ public class Node<T> {
 
     // instance variables
     T value;
-    Node nextNode;
+    Node <T> nextNode;
 
     // constructor
 
