@@ -2,8 +2,8 @@ package stacksandqueues;
 
 public class Queue<T> {
     // instance variables
-    Node front;
-    Node end;
+    Node <T> front;
+    Node <T> end;
 
     // constructor
     public Queue (){
@@ -11,7 +11,7 @@ public class Queue<T> {
         this.end = this.front;
     }
 
-    public <T> T enqueue(T valueOfNodeToAdd){
+    public T enqueue(T valueOfNodeToAdd){
         //Define a method called enqueue which takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance.
         Node<T> nodeToAdd = new Node<T>(valueOfNodeToAdd);
 
@@ -23,24 +23,24 @@ public class Queue<T> {
             this.end = nodeToAdd;
         }
 
-        return (T) this.end.value;
+        return this.end.value;
     }
 
-    public <T> T peek(){
+    public T peek(){
         if (this.front != null){
-            return (T) this.front.value;
+            return this.front.value;
         } else {
             return null;
         }
     }
 
-    public <T> T dequeue(){
+    public T dequeue(){
         //Define a method called dequeue that does not take any argument, removes the node from the front of the queue, and returns the node’s value.
         T valueOfDequeuedNode;
         if (this.end == null){
             throw new NullPointerException("You cannot dequeue an empty list");
         } else {
-            valueOfDequeuedNode = (T) this.front.value;
+            valueOfDequeuedNode = this.front.value;
             this.front = this.front.nextNode;
             //System.out.println("The new front is: " + this.front.value);
         }
