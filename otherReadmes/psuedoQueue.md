@@ -9,7 +9,7 @@ Create a new PsuedoQueue class that has two stacks as it's only instance variabl
 - If a new item needs to be added again to the list, the nodes will be moved back into the first list
 
 ## Solution
-[Code](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/stacksandqueues/PseudoQueue) | [Stack](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/stacksandqueues/PseudoQueueTest.java)
+[Code](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/stacksandqueues/PseudoQueue.java) | [Stack](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/stacksandqueues/PseudoQueueTest.java)
 
 
 ![Image of whiteboard](../assets/cc11a-image.jpg)
