@@ -26,6 +26,20 @@ public class Queue<T> {
         return this.end.value;
     }
 
+    public T enqueue(Animal<T> animalToAdd){
+        //Overloaded method
+
+        if (this.front==null){
+            this.front = animalToAdd;
+            this.end = animalToAdd;
+        } else {
+            this.end.nextNode = animalToAdd;
+            this.end = animalToAdd;
+        }
+        //System.out.println(this.end.value);
+        return this.end.value;
+    }
+
     public T peek(){
         if (this.front != null){
             return this.front.value;
@@ -48,13 +62,13 @@ public class Queue<T> {
         return valueOfDequeuedNode;
     }
 
-    private String walkTheQueue(){
+    public String walkTheQueue(){
         Node <T> current = this.front;
         String queueValues = "";
         while (current != null){
             queueValues = queueValues + current.value + " ";
             current = current.nextNode;
         }
-        return queueValues;
+        return queueValues.trim();
     }
 }
