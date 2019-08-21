@@ -14,7 +14,7 @@ Implement the following methods:
 - When the dequeue method is called on an AnimalShelter instance, the preferred animal will be removed from one of the queues.
 
 ## Solution
-[Code](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/stacksandqueues/AnimalShelter.java) | [Test](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/stacksandqueues/AnimalShelter.java)
+[Code](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/stacksandqueues/AnimalShelter.java) | [Test](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/stacksandqueues/AnimalShelterTest.java)
 
 
 ![Image of whiteboard](../assets/cc12-image.jpg)
