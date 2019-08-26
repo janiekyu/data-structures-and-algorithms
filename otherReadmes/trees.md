@@ -1,5 +1,7 @@
 # Trees
-Binary Tree and BST Implementatio
+Binary Tree and BST Implementation
+
+[Code](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/tree) | [Tests](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/test/java/code401challenges/tree)
 
 ## Challenge
 - Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
