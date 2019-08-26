@@ -30,4 +30,25 @@ public class BinarySearchTreeTest {
 
     }
 
+    @Test
+    public void testContains(){
+        BinarySearchTree testTree = new BinarySearchTree();
+        Node rootNode = new Node(50);
+        Node leftNode = new Node(25);
+        Node rightNode = new Node(75);
+        Node leftRightNode = new Node(40);
+        Node rightRightNode = new Node(100);
+        testTree.root = rootNode;
+        rootNode.leftChild = leftNode;
+        rootNode.rightChild = rightNode;
+        leftNode.rightChild = leftRightNode;
+        rightNode.rightChild = rightRightNode;
+
+        assertFalse(testTree.contains(30));
+        assertTrue(testTree.contains(25));
+        assertTrue(testTree.contains(100));
+
+
+    }
+
 }

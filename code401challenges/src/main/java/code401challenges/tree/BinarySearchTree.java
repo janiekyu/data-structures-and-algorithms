@@ -22,8 +22,6 @@ public class BinarySearchTree extends Tree {
         // look at value of root, if value is less than value, go left, if value is greater than value to right
         addHelper(this.root, nodeToAdd);
 
-
-
     }
 
     public void addHelper(Node node, Node nodeToAdd){
@@ -47,6 +45,23 @@ public class BinarySearchTree extends Tree {
                 }
              }
 
+    }
+
+    public boolean contains (int value){
+        return this.containsHelper(this.root, value);
+    }
+
+    public boolean containsHelper(Node node, int value){
+        if (value == node.value){
+            System.out.println("value found");
+            return true;
+        } else if (value < node.value && node.leftChild != null){
+            return containsHelper(node.leftChild, value);
+        } else if (value > node.value && node.rightChild != null){
+            return containsHelper(node.rightChild, value);
+        }
+        System.out.println("not found");
+        return false;
     }
 
     // class methods

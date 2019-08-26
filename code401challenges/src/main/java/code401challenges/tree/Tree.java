@@ -26,7 +26,7 @@ public class Tree <Integer> {
         return outputList;
     }
 
-    public void preOrderHelper(Node node, ArrayList outputList){
+    private void preOrderHelper(Node node, ArrayList outputList){
 
         outputList.add(node.value);
 
@@ -47,7 +47,7 @@ public class Tree <Integer> {
         return outputList;
     }
 
-    public void inOrderHelper(Node node, ArrayList outputList){
+    private void inOrderHelper(Node node, ArrayList outputList){
 
         if (node.leftChild != null){
             inOrderHelper(node.leftChild, outputList);
@@ -66,7 +66,7 @@ public class Tree <Integer> {
         return outputList;
     }
 
-    public void postOrderHelper(Node node, ArrayList outputList){
+    private void postOrderHelper(Node node, ArrayList outputList){
 
         if (node.leftChild != null){
             postOrderHelper(node.leftChild, outputList);
