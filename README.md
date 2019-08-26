@@ -12,9 +12,9 @@
 - Code Challenge 08: [Merge two linked lists](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/mergeLists.md)
 
 ## Week 3
-
 - Lab 10: [Stack and Queue Implementation](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/stackAndQueue.md)
 - Code Challenge 11: [Implement a Queue using two Stacks](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/psuedoQueue.md)
 - Code Challenge 12: [First-in, First out Animal Shelter](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/animalShelter.md)
 
+## Week 4
 - Code Challenge 15: [Binary Tree and BST Implementation](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/trees.md)
