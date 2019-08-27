@@ -18,3 +18,5 @@
 
 ## Week 4
 - Code Challenge 15: [Binary Tree and BST Implementation](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/trees.md)
+
+- Code Challenge 16: [“FizzBuzz”](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/fizzBuzz.md)

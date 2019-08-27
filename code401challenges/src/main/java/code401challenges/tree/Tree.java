@@ -3,7 +3,7 @@ package code401challenges.tree;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Tree <Integer> {
+public class Tree <T> {
 
     // instance variables
     Node root;
@@ -19,8 +19,8 @@ public class Tree <Integer> {
 
     // instance methods
 
-    public ArrayList<Integer> preOrder(){
-        ArrayList<Integer> outputList = new ArrayList<>();
+    public ArrayList<T> preOrder(){
+        ArrayList<T> outputList = new ArrayList<>();
         preOrderHelper(this.root, outputList);
         //System.out.println("hello" + arrayListToString(outputList));
         return outputList;
@@ -41,8 +41,8 @@ public class Tree <Integer> {
 
 
 
-     public ArrayList<Integer> inOrder(){
-        ArrayList<Integer> outputList = new ArrayList<>();
+     public ArrayList<T> inOrder(){
+        ArrayList<T> outputList = new ArrayList<>();
         inOrderHelper(this.root, outputList);
         return outputList;
     }
@@ -60,8 +60,8 @@ public class Tree <Integer> {
     }
 
 
-    public ArrayList<Integer> postOrder(){
-        ArrayList<Integer> outputList = new ArrayList<>();
+    public ArrayList<T> postOrder(){
+        ArrayList<T> outputList = new ArrayList<>();
         postOrderHelper(this.root, outputList);
         return outputList;
     }
