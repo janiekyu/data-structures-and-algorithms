@@ -9,7 +9,7 @@ public class TreeTest {
 
 
     @Test public void testCreateEmptyTree(){
-        Tree emtpyTree = new Tree();
+        Tree<Integer> emtpyTree = new Tree();
         assertNotNull(emtpyTree);
     }
 

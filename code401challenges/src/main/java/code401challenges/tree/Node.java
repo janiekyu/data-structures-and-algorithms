@@ -1,20 +1,20 @@
 package code401challenges.tree;
 
-public class Node {
+public class Node <T> {
 
     // instance variables
-    int value;
+    T value;
     Node leftChild;
     Node rightChild;
 
     // constructor
-    public Node (int value, Node leftChild, Node rightChild) {
+    public Node (T value, Node leftChild, Node rightChild) {
         this.value = value;
         this.leftChild = leftChild;
         this.rightChild = rightChild;
     }
 
-    public Node (int value){
+    public Node (T value){
         this.value = value;
         this.leftChild = null;
         this.rightChild = null;

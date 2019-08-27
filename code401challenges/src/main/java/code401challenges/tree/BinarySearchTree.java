@@ -2,9 +2,9 @@ package code401challenges.tree;
 
 import java.util.ArrayList;
 
-public class BinarySearchTree extends Tree {
+public class BinarySearchTree extends Tree<Integer> {
 
-    public BinarySearchTree(Node root) {
+    public BinarySearchTree(Node<Integer> root) {
         super(root);
     }
 
@@ -17,14 +17,14 @@ public class BinarySearchTree extends Tree {
 
     public void add(int valueToAdd){
 
-        Node nodeToAdd = new Node(valueToAdd);
+        Node<Integer> nodeToAdd = new Node<>(valueToAdd);
 
         // look at value of root, if value is less than value, go left, if value is greater than value to right
         addHelper(this.root, nodeToAdd);
 
     }
 
-    public void addHelper(Node node, Node nodeToAdd){
+    public void addHelper(Node<Integer> node, Node<Integer> nodeToAdd){
         //look at the left node
             if (nodeToAdd.value < node.value){
 
@@ -51,7 +51,7 @@ public class BinarySearchTree extends Tree {
         return this.containsHelper(this.root, value);
     }
 
-    public boolean containsHelper(Node node, int value){
+    public boolean containsHelper(Node<Integer> node, int value){
         if (value == node.value){
             System.out.println("value found");
             return true;
