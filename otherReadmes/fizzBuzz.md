@@ -11,6 +11,9 @@ Without utilizing any of the built-in methods available to your language, determ
 
 Return the tree with its new values.
 
+## Approach & Efficiency
+Using a recursive method, I'm looking at each of the nodes in the tree. The value is run through a helper function which evaluates and reassigns the value based on the requriments. Big O will be O(n) since all the nodes in the tree will be looked at. 
+
 ## Code
 
 [Code](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/tree/FizzBuzzTree) | [Tests](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/test/java/code401challenges/tree/FizzBuzzTreeTest)
