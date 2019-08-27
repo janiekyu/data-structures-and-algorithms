@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Tree <T> {
 
     // instance variables
-    Node root;
+    Node <T> root;
 
     // constructor
     public Tree(Node root) {
