@@ -6,18 +6,24 @@ public class Node <T> {
     T value;
     Node leftChild;
     Node rightChild;
+    Node nextNode;
 
     // constructor
     public Node (T value, Node leftChild, Node rightChild) {
         this.value = value;
         this.leftChild = leftChild;
         this.rightChild = rightChild;
+        this.nextNode = null;
     }
 
     public Node (T value){
         this.value = value;
         this.leftChild = null;
         this.rightChild = null;
+        this.nextNode = null;
+    }
+
+    public Node (){
     }
 
 
