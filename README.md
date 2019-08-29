@@ -18,5 +18,6 @@
 
 ## Week 4
 - Code Challenge 15: [Binary Tree and BST Implementation](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/trees.md)
-
 - Code Challenge 16: [“FizzBuzz”](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/otherReadmes/fizzBuzz.md)
+- Code Challenge 17: [“Breadth First”](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/breadthFirst.md)
+- Code Challenge 18: [“Find Maximum Value”](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/otherReadmes/findMax.md)
