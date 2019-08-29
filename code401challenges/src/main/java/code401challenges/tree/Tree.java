@@ -17,7 +17,34 @@ public class Tree <T> {
         this.root = null;
     }
 
+
+
     // instance methods
+
+    public int findMaximumValue(){
+        //type[] var-name;
+        ArrayList<T> currentMax = new ArrayList<>();
+        currentMax.add(this.root.value);
+        return (int) findMaxHelper(this.root, currentMax).get(0);
+    }
+
+    private ArrayList findMaxHelper(Node current, ArrayList currentMax){
+
+
+        if ((int)current.value> (int)currentMax.get(0)){
+            currentMax.set(0, current.value);
+        }
+
+        if (current.leftChild != null){
+            findMaxHelper(current.leftChild, currentMax);
+        }
+
+        if (current.rightChild != null){
+            findMaxHelper(current.rightChild, currentMax);
+        }
+
+        return currentMax;
+    }
 
     public ArrayList<T> preOrder(){
         ArrayList<T> outputList = new ArrayList<>();
@@ -38,7 +65,6 @@ public class Tree <T> {
         }
 
     }
-
 
 
      public ArrayList<T> inOrder(){
