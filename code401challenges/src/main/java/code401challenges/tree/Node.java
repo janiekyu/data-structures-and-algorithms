@@ -4,9 +4,9 @@ public class Node <T> {
 
     // instance variables
     T value;
-    Node leftChild;
-    Node rightChild;
-    Node nextNode;
+    Node <T> leftChild;
+    Node <T> rightChild;
+    Node <T> nextNode;
 
     // constructor
     public Node (T value, Node leftChild, Node rightChild) {
