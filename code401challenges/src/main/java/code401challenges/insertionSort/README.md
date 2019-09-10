@@ -5,12 +5,7 @@
   Insertion sorts are easy to implement and work best with small data sets
   
 ## Learning Objectives
-  What
-  Will
-  The
-  Students
-  Learn
-  Today
+What an insertion sort is and how to use it. 
 
  ## Diagram
 ![A graphical example of insertion sort.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
@@ -18,7 +13,10 @@
 A graphical example of insertion sort. The partial sorted list (black) initially contains only the first element in the list. With each iteration one element (red) is removed from the input data and inserted in-place into the sorted list. [(Image and caption from wikipedia)](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif)
   
   ## Algorithm
-  Starting with the second element in the list, 
+  1. Starting with the second element in the list, compare it to the element before it. 
+  2. If the current element is less than the previous, then switch spots. 
+  3. Move on to the third element and walk the array towards the front. Shift numbers one spot to the right until you find an element that is less than the current element. 
+  4. Continue to do this until you sort the last element. 
   
  ## Pseudocode
  
@@ -38,8 +36,6 @@ InsertionSort(int[] arr)
 ```
 
 ## Readings and References
-Watch
-- Video
 
 Read:
 - [wikipedia article on insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
