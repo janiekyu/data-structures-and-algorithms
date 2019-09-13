@@ -12,7 +12,6 @@ Full example of quicksort on a random set of numbers. The shaded element is the 
 
 ![A graphical representation of quick sort](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Quicksort-diagram.svg/400px-Quicksort-diagram.svg.png)
 
-[(Image from geeksforgeeks)](https://www.geeksforgeeks.org/merge-sort/)
   
   ## Algorithm
   1. Pick a pivot
