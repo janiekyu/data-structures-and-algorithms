@@ -1,16 +1,32 @@
 package code401challenges.quickSort;
 
 public class QuickSort {
-    public static int[] quickSort(int[] arrayToSort, int left, int right){
+    public static int[] quickSort(int[] arrayToSort, int startIndex, int endIndex){
+        if (startIndex < endIndex){
+            int pivotInd = partition(arrayToSort, startIndex, endIndex);
+            quickSort(arrayToSort, startIndex, pivotInd-1);
+            quickSort(arrayToSort, pivotInd+1, endIndex);
+        }
         return arrayToSort;
     }
 
-    public int[] partition(int[] arr, int left, int right){
-        return arr;
+    public static int partition(int[] arrayToSort, int startIndex, int endIndex){
+        int pivotValue = arrayToSort[endIndex];
+        int partitionIndex = startIndex;
+        for (int i = startIndex; i < endIndex; i++){
+            if (arrayToSort[i]<pivotValue){
+                swap(arrayToSort, i, partitionIndex);
+                partitionIndex++;
+            }
+        }
+        swap(arrayToSort, partitionIndex, endIndex);
+        return partitionIndex;
     }
 
-    public void swap(int []arr, int i, int low){
-
+    public static void swap(int []arr, int swapIndex, int endIndex){
+        int temp = arr[endIndex];
+        arr[endIndex] = arr[swapIndex];
+        arr[swapIndex] = temp;
     }
 
 
