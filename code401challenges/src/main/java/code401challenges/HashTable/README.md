@@ -6,3 +6,6 @@ Hash Table Implementation
 - get(): takes in the key and returns the value from the table
 - contains(): takes in the key and returns a boolean, indicating if the key exists in the table already
 - hash(): takes in an arbitrary key and returns an index in the collection
+
+## Tests
+https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/test/java/code401challenges/HashTable
