@@ -1,4 +1,4 @@
-# Hashtables
+# Hash Tables
 Hash Table Implementation
 
 ## Features
@@ -9,3 +9,7 @@ Hash Table Implementation
 
 ## Tests
 https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/test/java/code401challenges/HashTable
+
+## Hash Table Labs
+
+- Repeated Words

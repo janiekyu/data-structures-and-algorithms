@@ -28,12 +28,12 @@ public class HashTable {
 
         if (this.map[hashedKey] == null){
             this.map[hashedKey] = new Node(key, value);
-            System.out.println(map[hashedKey].key + ": " + hashedKey);
+            //System.out.println(map[hashedKey].key + ": " + hashedKey);
         } else{
             Node temp = this.map[hashedKey];
             this.map[hashedKey] = new Node(key, value);
             this.map[hashedKey].nextNode = temp;
-            System.out.println(map[hashedKey].key + ": " + hashedKey + ", next: " + map[hashedKey].nextNode.key);
+            //System.out.println(map[hashedKey].key + ": " + hashedKey + ", next: " + map[hashedKey].nextNode.key);
         }
     }
 
@@ -44,13 +44,13 @@ public class HashTable {
         Node nodeToCheck = this.map[hashedKey];
         while (nodeToCheck != null){
             if (nodeToCheck.key.equals(key)) {
-                System.out.println(key + ": " + nodeToCheck.value);
+                //System.out.println(key + ": " + nodeToCheck.value);
                 return nodeToCheck.value;
             } else {
                 nodeToCheck = nodeToCheck.nextNode;
             }
         }
-        System.out.println(key + " not found");
+        //System.out.println(key + " not found");
         return "end of list and not found";
     }
 
@@ -61,13 +61,13 @@ public class HashTable {
         Node nodeToCheck = this.map[hashedKey];
         while (nodeToCheck != null){
             if (nodeToCheck.key.equals(key)) {
-                System.out.println(key + " found!");
+                //System.out.println(key + " found!");
                 return true;
             } else {
                 nodeToCheck = nodeToCheck.nextNode;
             }
         }
-        System.out.println(key + " not found =(");
+        //System.out.println(key + " not found =(");
         return false;
     }
 }
