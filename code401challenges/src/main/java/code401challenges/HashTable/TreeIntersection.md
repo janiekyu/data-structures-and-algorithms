@@ -1,6 +1,6 @@
 # Code Challenge 31 - Repeated Words
 
-[CODE]() | [TESTS]()
+[CODE](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/HashTable/HashTable.java) | [TESTS](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/code401challenges/HashTable/TreeIntersectionTest.java)
 - Write a function called tree_intersection that takes two binary tree parameters.
 - Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
 
