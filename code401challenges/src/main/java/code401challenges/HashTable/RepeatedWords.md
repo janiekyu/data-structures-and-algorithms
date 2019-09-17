@@ -1,6 +1,6 @@
 # Code Challenge 31 - Repeated Words
 
-[CODE]() | [TESTS]()
+[CODE](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/HashTable/RepeatedWords.java) | [TESTS](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/code401challenges/HashTable/RepeatedWordsTest.java)
 - Write a function that accepts a lengthy string parameter.
 - Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
 
