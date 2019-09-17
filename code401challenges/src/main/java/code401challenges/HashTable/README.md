@@ -13,4 +13,4 @@ https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401ch
 ## Hash Table Labs
 
 - [Repeated Words](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/HashTable/RepeatedWords.md)
-- [Tree Intersection](https://github.com/janiekyu/data-structures-and-algorithms/tree/master/code401challenges/src/main/java/code401challenges/HashTable)
+- [Tree Intersection](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/HashTable/TreeIntersection.md)
