@@ -12,4 +12,4 @@
 - if not, append 'null'
 
 ## Solution
-![image]()
+![image](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/assets/cc33-image.JPG)
