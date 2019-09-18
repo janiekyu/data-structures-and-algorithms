@@ -21,6 +21,8 @@ public class HashTableTest {
 
         assertTrue(ht.contains("Ethan"));
         assertFalse(ht.contains("Elmo"));
+
+        LeftJoin.printHashTable(ht);
     }
 
     @Test
