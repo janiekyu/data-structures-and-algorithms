@@ -1,5 +1,5 @@
 # Hashmap LEFT JOIN
-[Code](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/HashTable/LeftJoin.java)
+[Code](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/HashTable/LeftJoin.java) | [Test](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/code401challenges/HashTable/LeftJoinTest.java)
 
 ## Challenge
 Write a function that LEFT JOINs two hashmaps into a single data structure. LEFT JOIN means all the values in the first hashmap are returned, and if values exist in the “right” hashmap, they are appended to the result row. If no values exist in the right hashmap, then some flavor of NULL should be appended to the result row.
