@@ -2,24 +2,26 @@
 
 ## Array
 
-DECLARE AN ARRAY 
+### Declare an Array
 ```
 String[] aArray = new String[5];
 String[] bArray = {"a","b","c", "d", "e"};
 String[] cArray = new String[]{"a","b","c","d","e"};
 ```
 
-PRINT AN ARRAY: ```Arrays.toString(array);```
+### Methods: 
 
-LENGTH: ```array.length;```
+- ```Arrays.toString(array);``` 
+- ```array.length;```
 
-CREATE ARRAYLIST FROM ARRAY:
+### Create an ArrayList from an Array
 ```
 String[] stringArray = { "a", "b", "c", "d", "e" };
 ArrayList<String> arrayList = new ArrayList<String>(Arrays.asList(stringArray));
 ```
 
 ## Matrix - array of arrays
+### Traversing through a matirx
 ```
 int [][] matrix = {{1,2,3}, {4,5,6}, {7,8,9}};
 
@@ -31,15 +33,15 @@ for (int r=0; r<matrix.length; r++){    // loop through each row
 ```
 
 ## ArrayList
-```
-//Creating arraylist  
+### Creating arraylist 
+``` 
 ArrayList<String> list=new ArrayList<String>();   
     //Adding object in arraylist   
     list.add(“Hello”);      
     list.add(“Jane”);  
     list.add(“Hur”);  
 ```
-
+### Methods: 
 - ```.add(element)```
 - ```.add(index, element)```
 - ```.contains()``` - returns boolean if the list contains the specified element
@@ -53,3 +55,28 @@ ArrayList<String> list=new ArrayList<String>();
 
 
 ## String
+
+### Declare a String
+ ```
+ String str1 = "Welcome";   // String literal
+ String str1 = new String("Welcome");   // Using new keyworde
+ ```
+
+ ### Methods
+
+- ```.charAt(index)``` - returns the character at the specified index
+- ```.equals(string)``` - compares the content of the strings and returns a boolean
+- ```.equalsIgnoreCase(string)``` - returns boolean comparing the content of the strings ignoring case
+- ```.toUpperCase()``` - returns a string with all the characters changed to uppercase
+- ```.toLowerCase()``` - returns a string with all the characters changed to lowercase
+- ```.split(regex)``` - It splits the string and returns the array of substrings that matches the given regular expression
+- ```toCharArray()``` - Converts the string to a character array
+- ```length()``` - It returns the length of a String
+
+### Converting char array to string
+
+```
+char [] charArray =  {"a","b","c", "d", "e"};
+String stringFromArray = new String(charArray);
+// stringFromArray = "abcde"
+```
