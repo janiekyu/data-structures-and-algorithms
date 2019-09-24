@@ -23,7 +23,7 @@ public class Graph<T> {
         return nodeToAdd;
     }
 
-    public static void AddEdge(Node fromNode, Node toNode, int weight){
+    public void AddEdge(Node fromNode, Node toNode, int weight){
         fromNode.neighbors.put(toNode, weight);
     }
 
