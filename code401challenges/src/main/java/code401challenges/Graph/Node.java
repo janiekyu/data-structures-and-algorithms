@@ -6,12 +6,14 @@ public class Node<T> {
     //instance variables
     T value;
     HashMap<Node<T>, Integer> neighbors;
+    boolean visited;
 
 
     // constructor
     public Node(T value){
         this.value = value;
         this.neighbors = new HashMap<>();
+        this.visited = false;
     }
 
 
