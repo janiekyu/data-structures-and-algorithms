@@ -1,7 +1,8 @@
 # GetEdge
-Given a business trip itinerary, and an Alaska Airlines route map, is the trip possible with direct flights? If so, how much will the total trip cost be?
 
 [CODE](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/main/java/code401challenges/Graph/GetEdge.java) | [TEST](https://github.com/janiekyu/data-structures-and-algorithms/blob/master/code401challenges/src/test/java/code401challenges/Graph/GetEdgeTest.java)
+
+Given a business trip itinerary, and an Alaska Airlines route map, is the trip possible with direct flights? If so, how much will the total trip cost be?
 
 ## Approach & Efficiency
 ### travelPossible() Method
