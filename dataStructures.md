@@ -70,8 +70,8 @@ ArrayList<String> list=new ArrayList<String>();
 - ```.toUpperCase()``` - returns a string with all the characters changed to uppercase
 - ```.toLowerCase()``` - returns a string with all the characters changed to lowercase
 - ```.split(regex)``` - It splits the string and returns the array of substrings that matches the given regular expression
-- ```toCharArray()``` - Converts the string to a character array
-- ```length()``` - It returns the length of a String
+- ```.toCharArray()``` - Converts the string to a character array
+- ```.length()``` - It returns the length of a String
 
 ### Converting char array to string
 
@@ -80,3 +80,79 @@ char [] charArray =  {"a","b","c", "d", "e"};
 String stringFromArray = new String(charArray);
 // stringFromArray = "abcde"
 ```
+## Hash Map
+
+### Methods
+- ```.containsKey(key)``` - returns boolean
+- ```.containsValue(value)``` - returns boolean
+- ```.get(key)``` - returns the value for the key, null if the key is not found
+- ```.isEmpty()``` - returns true if the map has no key-value pairs
+- ```.put(key, value)``` - adds a k/v pair to the hash map
+- ```.remove(key)``` - removes the mapping for the specified key, if present
+- ```.size()``` - returns the number of key-value mappings
+- ```.entrySet()``` - returns a set view the mappings ([B=3, C=1, D=0])
+- ```.keySet()``` - returns a set view of the keys
+- ```.values()``` - returns a collection of the values
+
+## Trees
+
+### Depth first traversal:preorder, inorder, postorder
+
+The most common way to traverse through a tree is to use recursion. With these traversals, we rely on the call stack to navigate back up the tree when we have reached the end.
+
+``` 
+ALGORITHM PreOrder(node)
+// INPUT <-- root Node
+// OUTPUT <-- preorder output of tree nodes
+
+    OUTPUT <-- node.Value
+
+    if node.LeftChild is not Null
+        PreOrder(node.LeftChild)
+
+    if node.RightChild is not NULL
+        PreOrder(node.RightChild)
+```
+
+### Breadth First
+The breadth first traversal iterates through the tree by going through each level of the tree node by node.
+```
+ALGORITHM BreadthFirst(root)
+//INPUT <-- root node
+// OUTPUT <-- front node of queue to console
+
+    Queue breadth <-- new Queue()
+	breadth.Enqueue(root)
+		
+	while breadth.Peek
+	    Node front = breadth.Dequeue()
+		OUTPUT <-- front.Value
+
+		if front.LeftChild is not null
+			breadth.Enqueue(front.LeftChild)
+
+		if front.RightChild is not NULL
+			breadth.Enqueue(front.RightChild)
+```
+
+### Binary Search Trees
+
+The best way to approach a BST search is with a while loop. The condition within this while loop would be to keep running until it hits a leaf.
+
+The Big O of a Binary Search Tree’s insertion and search operations is O(h), or O(height). In the worst case, we will have to search all the way down to a leaf, which will require searching through as many nodes as the tree is tall.
+
+## Stacks
+
+The Stack class represents a last-in-first-out (LIFO) stack of objects.
+
+### Create a stack
+
+```Stack stack = new Stack();```
+
+### Methods
+- ```.empty()``` - returns boolean
+- ```.peek()``` - Returns the object at the object at the top of this stack without removing it.
+- ```.pop()``` - Removes the object at the top of this stack and returns that object as the value of this function.
+- ```.push(item)``` - Pushes an item onto the top of this stack.
+- ```.search(Object)``` - Returns the distance from the top of the stack of the occurrence nearest the top of the stack; the topmost item on the stack is considered to be at distance 1. The return value -1 indicates that the object is not on the stack.
+
