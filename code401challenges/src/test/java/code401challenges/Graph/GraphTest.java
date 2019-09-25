@@ -76,13 +76,14 @@ public class GraphTest {
         testGraph.AddEdge(nodeC, nodeD, 2);
         testGraph.AddEdge(nodeC, nodeE);
 
-        System.out.println(nodeA.neighbors.entrySet());
+        //System.out.println(nodeA.neighbors.entrySet());
         assertTrue(nodeA.neighbors.containsKey(nodeB));
         assertTrue(nodeA.neighbors.containsKey(nodeC));
         assertTrue(nodeA.neighbors.containsKey(nodeD));
         assertFalse(nodeA.neighbors.containsKey(nodeE));
 
-        System.out.println(nodeC.neighbors.entrySet());
+        //System.out.println(nodeC.neighbors.entrySet());
+        System.out.println(nodeC.neighbors.keySet());
 
     }
 
