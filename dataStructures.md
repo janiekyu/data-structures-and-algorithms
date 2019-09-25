@@ -96,6 +96,8 @@ String stringFromArray = new String(charArray);
 
 ## Trees
 
+Resources: [CF Reading](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/Trees.html)
+
 ### Depth first traversal:preorder, inorder, postorder
 
 The most common way to traverse through a tree is to use recursion. With these traversals, we rely on the call stack to navigate back up the tree when we have reached the end.
@@ -142,6 +144,7 @@ The best way to approach a BST search is with a while loop. The condition within
 The Big O of a Binary Search Tree’s insertion and search operations is O(h), or O(height). In the worst case, we will have to search all the way down to a leaf, which will require searching through as many nodes as the tree is tall.
 
 ## Stacks
+Resources: [CF Reading](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html)
 
 The Stack class represents a last-in-first-out (LIFO) stack of objects.
 
@@ -156,3 +159,7 @@ The Stack class represents a last-in-first-out (LIFO) stack of objects.
 - ```.push(item)``` - Pushes an item onto the top of this stack.
 - ```.search(Object)``` - Returns the distance from the top of the stack of the occurrence nearest the top of the stack; the topmost item on the stack is considered to be at distance 1. The return value -1 indicates that the object is not on the stack.
 
+
+## Graphs
+
+Resources: [CF Reading](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html)
