@@ -154,11 +154,30 @@ The Stack class represents a last-in-first-out (LIFO) stack of objects.
 
 ### Methods
 - ```.empty()``` - returns boolean
-- ```.peek()``` - Returns the object at the object at the top of this stack without removing it.
+- ```.peek()``` - Returns the object at the object at the top of this stack without removing it. Throws an EmptyStackException if this stack is empty.
 - ```.pop()``` - Removes the object at the top of this stack and returns that object as the value of this function.
 - ```.push(item)``` - Pushes an item onto the top of this stack.
 - ```.search(Object)``` - Returns the distance from the top of the stack of the occurrence nearest the top of the stack; the topmost item on the stack is considered to be at distance 1. The return value -1 indicates that the object is not on the stack.
 
+## Queues
+Resources: [CF Reading](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html)
+
+Queues typically, but do not necessarily, order elements in a FIFO (first-in-first-out) manner.
+
+### Methods
+- ```.add(element)``` - Like enqueue. Inserts the specified element into this queue
+- ```.peek()``` - Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+- ```.remove()``` - Like dequeue. Retrieves and removes the head of this queue. Returns the head.
+
+### Create a queue
+
+```Queue<Integer> queue = new LinkedList<>();```
+
+
+Queue is an interface you need to instantiate a concrete implementation of the interface in order to use it. LinkedList is a pretty standard queue implementation.
+
+## Linked Lists
+Resources: [CF Reading](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html)
 
 ## Graphs
 
