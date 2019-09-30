@@ -59,7 +59,7 @@ ArrayList<String> list=new ArrayList<String>();
 ### Declare a String
  ```
  String str1 = "Welcome";   // String literal
- String str1 = new String("Welcome");   // Using new keyworde
+ String str1 = new String("Welcome");   // Using new keyword
  ```
 
  ### Methods
@@ -139,7 +139,7 @@ ALGORITHM BreadthFirst(root)
 
 ### Binary Search Trees
 
-The best way to approach a BST search is with a while loop. The condition within this while loop would be to keep running until it hits a leaf.
+A good way to approach a BST search is with a while loop. The condition within this while loop would be to keep running until it hits a leaf.
 
 The Big O of a Binary Search Tree’s insertion and search operations is O(h), or O(height). In the worst case, we will have to search all the way down to a leaf, which will require searching through as many nodes as the tree is tall.
 
